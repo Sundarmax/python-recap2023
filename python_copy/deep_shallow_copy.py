@@ -28,4 +28,5 @@ def deep_copy():
     print(old_list,new_list)
 
 shallow_copy()
-deep_copy()
+
+#deep_copy()

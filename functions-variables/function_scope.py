@@ -6,3 +6,6 @@ def outer_func():
         x = x +1
         print(x)
     inner_func()
+    print(x)
+
+outer_func()

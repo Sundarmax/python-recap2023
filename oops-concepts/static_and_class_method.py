@@ -1,4 +1,3 @@
-
 # https://www.geeksforgeeks.org/class-method-vs-static-method-python/
 
 class CALC:
@@ -6,7 +5,7 @@ class CALC:
         self.user_access = "allowed"
 
     @staticmethod
-    def get_max(x,y):
+    def get_max(x,y): # don't have self parameter
         return max(x,y)
     
     @classmethod
@@ -14,7 +13,6 @@ class CALC:
         return cls("blocked")
 
 # print(CALC.get_max(11,13))
-
 # obj = CALC()
 # print(obj.user_access)
 # CALC.set_useraccess()
@@ -32,7 +30,7 @@ class Person:
 
 	# a class method to create a Person object by birth year.
 	@classmethod
-	def fromBirthYear(cls, name, year):
+	def fromBirthYear(cls, name, year): # we have cls param as first argument.
 		return cls(name, date.today().year - year)
 
 	# a static method to check if a Person is adult or not.
