@@ -1,0 +1,3 @@
+
+def apiTest():
+    return "sucess"
