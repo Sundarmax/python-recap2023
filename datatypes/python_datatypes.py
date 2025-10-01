@@ -4,7 +4,7 @@ def python_list():
     list_int.append(7)
     # add multiple element
     list_int.extend([8,9])
-    #list_int.extend([[10,11]])
+    # list_int.extend([[10,11]])
     print(list_int)
     # return first appearance
     idx =  list_int.index(8)
@@ -77,5 +77,5 @@ def python_sets():
 
 # python_list()
 # python_tuple()
-# python_dict()
-python_sets()
+python_dict()
+# python_sets()
