@@ -26,5 +26,6 @@ def stringFunc2():
         idx = sentence.index("sentences")
     except ValueError:
         print("not found")
-    
-stringFunc2()
+
+stringFunc()
+# stringFunc2()

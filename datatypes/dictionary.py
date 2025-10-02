@@ -6,7 +6,7 @@ print(dic.keys())
 
 # unpacking
 *x, = dic.keys()
-print(x)
+print(x,type(x))
 
 # can use iterables also.
 y = [*dic.keys()]
